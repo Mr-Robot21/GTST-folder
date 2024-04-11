@@ -22,6 +22,11 @@ print ("hello world")
 ```
 
 8. to use a blockquote use > 
-> blockquote
+> blockquote   
 
+- You can visit the site https://www.markdownguide.org
+
+* Cheat-sheet for markdown
+
+![[Pasted image 20240411123953.png]]
  
