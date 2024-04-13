@@ -26,7 +26,5 @@ print ("hello world")
 
 - You can visit the site https://www.markdownguide.org
 
-* Cheat-sheet for markdown
-
-![[Pasted image 20240411123953.png]]
+* Cheat-sheet for markdown  [[Pasted image 20240411123953.png]] 
  
