@@ -14,6 +14,7 @@
                                             * cheap & 
                                             * open-source
 - Then *LINUS TORVALDS* created **Linux kernel** and posted it online on github to make it **open-source**. 
+- Linux Torvalds used *c language* to develop Linux.
 - In *1983 Richard Stallman* announced the **GNU PROJECT** and cofounded the *Free Software Foundation* in 1985.
 - GNU is a free software replacement to UNIX OS, but it was just a software but not full OS.
 - Thus GNU + LINUX kernel will give you  **GNU/LINUX OS**. 
