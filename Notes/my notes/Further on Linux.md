@@ -22,6 +22,8 @@
 - _/dev_ contains device files. 
 - Many of these are generated at boot time or even on the fly. 
 - For example, if you plug in a new webcam or a USB pen drive into your machine, a new device entry will automagically pop up here.
+##### Note
+- Everything in Linux is in file form Ex. *CPU*, *ROM*, ...... 
 
 ### /etc - et cetera
 - contains configuration files required by all programs.
@@ -141,7 +143,8 @@
 - after creating a user using *adduser* command do the following
          1. add user to root group - *usermod - a -G sudo ( name of user )*. 
          2. then change the shell - *chsh -s /bin/bash ( name of user )*.
-
+- after creating a user using *useradd* command, to add it to */home* directory use :
+         * *sudo mkhomedir_helper ( name of user )* 
 - to change the hostname we use the following command
       * *sudo hostnamectl set-hostname ( hostname name )* 
 
