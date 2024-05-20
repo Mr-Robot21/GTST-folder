@@ -15,21 +15,25 @@
 
 #print ("Your password is :" , users1[choice])
 
-code = [2313, 2314, 4325, 6546]
-errors = 1 
+#code = [2313, 2314, 4325, 6546]
+#errors = 1 
 
-while True : 
-    if errors <= 5 :
-        user = int(input(f"Enter the code correctly {code[0]} : "))
-        if user != int(code[0]) :
-            print (int(code[0]))
-            print (f"trial {errors} : incorrect , try again.")
-            errors += 1
-        elif user == int(code[0]) :
-            print ("welcome")
-            break
-    else :
-        print ("try again after 5 minutes.")
-        break
+#while True : 
+#    if errors <= 5 :
+#        user = int(input(f"Enter the code correctly {code[0]} : "))
+#        if user != int(code[0]) :
+#            print (int(code[0]))
+#            print (f"trial {errors} : incorrect , try again.")
+#            errors += 1
+#        elif user == int(code[0]) :
+#            print ("welcome")
+#            break
+#    else :
+#        print ("try again after 5 minutes.")
+#        break
+def power(x , y) :
+    z = x ** y
+    return z
+print (power(4 , 2)) 
 
 
