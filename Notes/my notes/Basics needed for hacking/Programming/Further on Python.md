@@ -82,6 +82,7 @@
 
 ## Object-oriented programming / OOP
 
+- Start with this video https://www.youtube.com/watch?v=JeznW_7DlB0
 - Python is an OOP, this means more things in python are objects.
 - Objects are anything which can have action and name.
 - Objects have attributes (properties) and methods (action or function).
@@ -109,3 +110,35 @@
 - Functions are called methods on OOP.
 - Syntax on calling :
      -  *classname.method(object)* 
+     - Ex. [[Pasted image 20240528014655.png]]
+- *Self* is object name on OOP you have to declare it.
+
+### Python Constructors
+- We can also initialize using constructors.
+- Here *__init__()* is the constructor method that is called whenever a new object of that class is instantiated.    [[Pasted image 20240528015230.png]]
+- If we use constructor to initialize values inside a class, we need to pass the corresponding value during the object creation of the class. [[Pasted image 20240528015258.png]]  
+- Here is a detailed example   [[Pasted image 20240528015400.png]] 
+
+### Python Inheritance
+- is a way of creating new class with some properties of existing class.
+- Syntax :
+     - *class new_class (old_class) :* 
+     - [[Pasted image 20240528015721.png]] 
+
+### Python Encapsulation
+- *Encapsulation* allows you to define controlled access to data stored inside objects of your class. This allows you to write clean, readable, and efficient code and prevent accidental changes or deletion of your class data.
+- Here is an example :   [[Pasted image 20240528020032.png]]
+
+### Package installing
+- We use pip to install tools or packages on python.
+- Syntax :
+     - *pip  install  package_name*
+- To use the packages we *import* them 
+- Syntax :
+     - *import  package_name* 
+
+##### websites to refer for OOP
+1. https://www.datacamp.com/tutorial/python-oop-tutorial
+2. https://realpython.com/python3-object-oriented-programming/
+3. https://www.geeksforgeeks.org/python-oops-concepts/
+4. https://www.freecodecamp.org/news/object-oriented-programming-python/
